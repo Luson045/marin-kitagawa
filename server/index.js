@@ -118,6 +118,8 @@ async function generateResponse(query) {
                           Ensure the response is easy to read aloud in Japanese [write in English], avoiding complex kanji and using simple phrasing when possible for better TTS pronunciation.
                           Try to be a little concise and when third party narration is needed, do what the first person would be mentioned doing.
                           You can use these simple japanese words or expression in chat ${weebo_words}, but don't use it where it is not needed.
+
+                          Do not use any third party narration!!
                           ### Context:
                           ${context}
 
